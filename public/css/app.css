@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  padding: 0 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.cards h2 {
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+.cards-ctr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-ctr .card {
+  padding: 5px 10px;
+  position: relative;
+}
+
+.cards-ctr .card .card-layover {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  right: 0;
+  left: 10px;
+  height: 200px;
+  width: 333.33px;
+  opacity: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-ctr .card .card-layover:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card img {
+  height: 200px;
+}
+
