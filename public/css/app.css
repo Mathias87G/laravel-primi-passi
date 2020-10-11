@@ -28,6 +28,8 @@ header {
 main {
   width: 80%;
   margin: auto;
+  height: 100%;
+  min-height: calc(100vh - 244px);
 }
 
 .cards h2 {
@@ -68,5 +70,64 @@ main {
 
 .card img {
   height: 200px;
+}
+
+.container-main-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.contatti-ctr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 244px);
+}
+
+.contatti-ctr .indirizzo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.contatti-ctr .telefono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+footer {
+  height: 80px;
+  margin: auto;
+  background-color: #002d75;
+}
+
+.footer-ctr {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer-ctr ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.footer-ctr ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-ctr ul li a {
+  text-decoration: none;
+  color: white;
 }
 

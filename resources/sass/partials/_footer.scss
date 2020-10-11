@@ -1,0 +1,25 @@
+footer {
+  height: 80px;
+  margin: auto;
+  background-color: #002d75;
+}
+
+.footer-ctr {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  ul {
+    padding-left: 10px;
+    list-style: none;
+    li {
+      display: inline-block;
+      padding-right: 5px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
